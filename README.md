@@ -1,4 +1,4 @@
-# fairness_metrics
+# Fairness_metrics
 
 ## Fairness Metrics Library for Binary Classification Models
 A library for calculating fairness metrics for binary classification models. The library takes as input a dataframe with user features, a dataframe with model outputs, a column name for the protected feature, and the protected value. The library returns a pandas dataframe with fairness metrics, including equal parity, proportional parity, false discovery rate parity, false positive rate parity, false omission rate parity, false negative rate parity, and recall parity.
