@@ -11,7 +11,7 @@ Use the package manager pip to install the library.
 pip install fairness-metrics
 
 ```
-##Usage
+## Usage
 
 ```python
 import pandas as pd
@@ -34,7 +34,7 @@ metrics = calculate_fairness_metrics(input_df, output_df, 'gender', 'female')
 print(metrics)
 ```
 
-##Example Notebook
+## Example Notebook
 ```python
 import pandas as pd
 from fairness_metrics import calculate_fairness_metrics
@@ -58,7 +58,7 @@ metrics = calculate_fairness_metrics(merged_df, 'gender', 'female')
 # print the resulting metrics dataframe
 print(metrics)
 ```
-##Notebook Outputs
+## Notebook Outputs
 ```python
            metric  protected  unprotected
 0   equal_parity      0.50        0.50
